@@ -67,4 +67,23 @@ map方法 原来花括号的需要改成() 因为注入jsx需要通过小括号
 - style行内样式
 - className外部样式
 
+## 类组件
+
+需要继承React.Component
+
+然后JSX结构写在render()中再进行return 不然为null
+
+通过on+事件名
+
+内部定义个事件处理函数 进行this调用
+
+
+
+
+
+
+
+
+
+
 
