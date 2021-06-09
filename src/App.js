@@ -1,10 +1,11 @@
 import TestComponent from './TestComponent'
+import JSXDemo from './JSXDemo'
 
 function App() {
   return (
     <div className="App">
-      清理干净
       <TestComponent></TestComponent>
+      <JSXDemo></JSXDemo>
     </div>
   );
 }
