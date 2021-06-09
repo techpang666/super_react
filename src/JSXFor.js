@@ -9,9 +9,9 @@ function JSXFor() {
       <ul>
         {
           // 原来花括号的需要改成() 因为注入jsx需要通过小括号
-          Books.map(item => (
+          Books.map((item, index) => (
             // 还有item需要花括号包裹起来
-            <li>
+            <li key={index}>
               {item}
             </li>
           ))
