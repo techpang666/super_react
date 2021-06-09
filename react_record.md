@@ -42,7 +42,7 @@ import TestComponent from './TestComponent'
 
 JSX是JavaScript XML的简写 可以在JavaScript中写HTML
 
-jsx可以表达式 甚至函数 另一个jsx 不可以语句
+jsx的大括号可以表达式 甚至函数 另一个jsx 不可以语句
 
 ```js
 function JSXDemo() {
@@ -56,7 +56,9 @@ function JSXDemo() {
 }
 ```
 
+js对象一般只会出现在style属性中
 
+map方法 原来花括号的需要改成() 因为注入jsx需要通过小括号
 
 
 
