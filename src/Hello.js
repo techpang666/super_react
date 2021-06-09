@@ -1,8 +1,14 @@
 import React from 'react'
 
 class Hello extends React.Component {
+  constructor() {
+    super()
+    this.demo = 'dddd'
+  }
+  // 上面可以简写成下面就可以了
+  demo = 'dddd'
   clickHandler = () => {
-    console.log(666);
+    console.log('触发了', this.demo);
   }
   render () {
     return (

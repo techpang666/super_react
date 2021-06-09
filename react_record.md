@@ -77,6 +77,17 @@ map方法 原来花括号的需要改成() 因为注入jsx需要通过小括号
 
 内部定义个事件处理函数 进行this调用
 
+```js
+  constructor() {
+    super()
+    this.demo = 'dddd'
+  }
+  // 上面可以简写成下面就可以了
+  demo = 'dddd'
+```
+
+事件处理函数内部的this问题 使用箭头函数就可以了 function只会undefined 因为找不到demo
+
 函数式组件不需要this 少用 一般都是类组件
 
 onClick={clickHandler}
