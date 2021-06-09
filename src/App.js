@@ -1,6 +1,7 @@
 import TestComponent from './TestComponent'
 import JSXDemo from './JSXDemo'
 import JSXFor from './JSXFor'
+import JSXStyle from './JSXStyle'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <TestComponent></TestComponent>
       <JSXDemo></JSXDemo>
       <JSXFor></JSXFor>
+      <JSXStyle></JSXStyle>
     </div>
   );
 }
