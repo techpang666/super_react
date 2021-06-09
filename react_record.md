@@ -96,7 +96,24 @@ onClick={() => {this.clickTest()}}
 
 onClick={clickHandler}
 
+```js
+// 普通类演示
 
+class Hello {
+  // 成员属性
+	demo = 'dddd';
+  // 成员方法
+	reader() {
+    // this指向构造函数
+		console.log(this);
+		console.log(this.demo);
+	}
+}
+
+// 相当于 export default Hello
+let obj = new Hello();
+obj.reader();
+```
 
 
 
