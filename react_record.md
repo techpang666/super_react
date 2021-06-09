@@ -88,6 +88,10 @@ map方法 原来花括号的需要改成() 因为注入jsx需要通过小括号
 
 事件处理函数内部的this问题 使用箭头函数就可以了 function只会undefined 因为找不到demo
 
+也可以调用事件处理函数的时候包装一层箭头函数 去执行function函数就可以了
+
+onClick={() => {this.clickTest()}}
+
 函数式组件不需要this 少用 一般都是类组件
 
 onClick={clickHandler}
