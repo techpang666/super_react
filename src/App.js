@@ -3,6 +3,7 @@ import JSXDemo from './JSXDemo';
 import JSXFor from './JSXFor';
 import JSXStyle from './JSXStyle';
 import Hello from './Hello';
+import BindThis from './BindThis';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<JSXDemo></JSXDemo>
 			<JSXFor></JSXFor>
 			<JSXStyle></JSXStyle>
+			<BindThis></BindThis>
 		</div>
 	);
 }
