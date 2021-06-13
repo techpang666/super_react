@@ -115,7 +115,7 @@ let obj = new Hello();
 obj.reader();
 ```
 
-通过bind解决this问题 这时候的this是bind传入的参数
+通过bind解决this问题 这时候的this是bind传入的参数(也就是这个组件)
 
 ```js
 	message = '我是组件属性';
